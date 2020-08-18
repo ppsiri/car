@@ -1,0 +1,190 @@
+.contain{
+    display: grid;
+    grid-template: repeat(12 ,1fr);
+}
+.nev{
+    grid-column: span 12;
+}
+.menu{
+    grid-column: span 2;
+    background-color: #A8BCBA;
+}
+.form{
+    grid-column: span 10;
+    background-color:#D1EDE1;
+}
+.bgorange{
+    background-color:#4A7A6A;
+}
+.btorange,.btorange:hover{
+    background-color:#4A7A6A;
+    border-radius: 8px;
+    border: 2px solid #4A7A6A;
+    color: white;
+}
+
+.btsubmit{
+    background-color: #00d1b2;
+}
+.h5nev{
+    color: white;
+}
+.hnev:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* menubar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #A8BCBA;
+  }
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+  /* ////////////////////////// */
+
+  /* table */
+
+table {
+    background-color: white;
+}
+td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    padding: 8px;
+}
+tr:hover {
+      background-color:#ddd;
+}
+.trh {
+    background-color:#ddd;
+}
+.panding{
+    padding: 8px 16px;
+    background-color: #d1ede1;
+}
+a,a:hover {
+    text-decoration: none;
+    color: white;
+}
+.edit {
+    border-radius: 12px;
+    background-color:#FF8C00;
+    color: white;
+}
+.check {
+    border-radius: 12px;
+    background-color:#2B65EC;
+    color: white;
+}
+.etc {
+    border-radius: 12px;
+    background-color:rgb(218, 25, 185);
+    color: white;
+}
+.del {
+    border-radius: 12px;
+    background-color:red;
+    color: white;
+}
+.nodel {
+    border-radius: 12px;
+    background-color:#2ECC71;
+    color: white;
+}
+.war {
+    background-color:#F1C40F;
+    font-weight: bold;
+    /* color: white; */
+}
+.warbook {
+    background-color:#3498DB;
+    font-weight: bold;
+    /* color: white; */
+}
+.combook {
+    background-color:#2ECC71;
+    font-weight: bold;
+    /* color: white; */
+}
+.falsbook {
+    background-color:#E74C3C;
+    font-weight: bold;
+    /* color: white; */
+}
+
+/* select *//***********************************************************************************/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+/***********************************************************************************/
