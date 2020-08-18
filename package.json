@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@material-ui/pickers": "^3.2.10",
     "@progress/kendo-react-dateinputs": "^3.11.0",
     "@syncfusion/ej2-react-schedule": "^17.4.51",

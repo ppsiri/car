@@ -8,7 +8,7 @@ import List from './List';
     return (
       <div className = "App">
         <div style ={{color:'#F4FFFF',backgroundColor:'#008C8C',fontSize:28,textAlign: 'center'}}>
-          ระบบจองยานพาหนะสำหรับมหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน  วิทยาเขตนครราชสีมา
+          ระบบจองยานพาหนะ
         </div>
           <p style ={
             {
@@ -17,7 +17,7 @@ import List from './List';
               textAlign: 'center'
             }
           }>
-            wellcome to Vehicle reservation system for Rajamangala University of Technology Isan Nakhon Ratchasima Campus
+            wellcome to Vehicle reservation system 
           </p> 
         <div className = "container">
           <List />  

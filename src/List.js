@@ -48,3 +48,34 @@ const List = (props) => {
 }
 
 export default List;
+ /*
+ import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
+const List = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
+  return (
+    <div>
+ <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
+  Open with fade transition
+</Button>
+<Menu
+  id="fade-menu"
+  anchorEl={anchorEl}
+  keepMounted
+  open={open}
+  onClose={handleClose}
+  TransitionComponent={Fade}
+>
+  <MenuItem onClick={handleClose}>ผู้ใช้งานทั่วไป</MenuItem>
+  <MenuItem onClick={handleClose}>ผู้ดูแลระบบ</MenuItem>
+  <MenuItem onClick={handleClose}>พนักงานขับ</MenuItem>
+</Menu> 
+</div>
+  );
+}
+
+export default List;
+*/
